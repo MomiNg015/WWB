@@ -2,6 +2,8 @@
 
 React + TypeScript + Vite 前端，Node.js + Express + Socket.IO 权威服务器，独立的确定性规则引擎。
 
+项目总入口见[仓库首页](../README.md)，历史变化见[更新日志](../CHANGELOG.md)，后续开发遵循[文档维护约定](../CONTRIBUTING.md)。
+
 ## 运行
 
 需要 Node.js 22.13 或更新版本。在本目录执行：
@@ -43,7 +45,7 @@ npm run build
 | `shared/types.ts` | 状态、命令、规则与公开视图协议 |
 | `shared/engine.ts` | 无网络/DOM 的纯状态转换、效果处理器、机器人 |
 | `server/index.ts` | 会话、房间、权限、广播、匹配、积分与持久化 |
-| `tests` | 63项测试，包括100组基础对局、30组九人复杂对局和真实 Socket.IO 联机 |
+| `tests` | 71项测试，包括基础与复杂对局、真实 Socket.IO 联机，以及后台权限、持久化与发布隔离 |
 | `public/assets` | 本地图片、图标、原版战斗音效 |
 
 ## 加玩法
