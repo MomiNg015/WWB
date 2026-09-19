@@ -1,0 +1,17 @@
+/* Public client A.jR: 650 x 50 at (15, 180), shown for 1500ms. */
+.battle-alert {
+  position: absolute;
+  z-index: 30;
+  left: 15px;
+  top: 180px;
+  width: 650px;
+  height: 50px;
+  border-radius: 10px;
+  background: #dd4444;
+  color: #ffeeee;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+  pointer-events: none;
+}

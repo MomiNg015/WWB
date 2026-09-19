@@ -1,0 +1,1312 @@
+A.kq.prototype={
+dU(a){return this.lb(t.oR.a(a))},
+lb(a){var s=0,r=A.l(t.H),q,p=2,o=[],n=this,m,l,k,j
+var $async$dU=A.m(function(b,c){if(b===1){o.push(c)
+s=p}for(;;)switch(s){case 0:k=n.a
+k.w.eq()
+m=n.b
+B.c.am(m,a)
+if(n.c){s=1
+break}n.c=!0
+case 3:if(!(m.length!==0)){s=4
+break}p=6
+s=9
+return A.b(n.k(B.c.aB(m,0)),$async$dU)
+case 9:p=2
+s=8
+break
+case 6:p=5
+j=o.pop()
+if(A.ae(j) instanceof A.cM){s=1
+break}else throw j
+s=8
+break
+case 5:s=2
+break
+case 8:s=3
+break
+case 4:n.c=!1
+if(!k.ch)k.fG()
+case 1:return A.j(q,r)
+case 2:return A.i(o.at(-1),r)}})
+return A.k($async$dU,r)},
+k(c3){var s=0,r=A.l(t.H),q,p=this,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2
+var $async$k=A.m(function(c4,c5){if(c4===1)return A.i(c5,r)
+for(;;)A:switch(s){case 0:o=c3.a
+s="startGame"===o?4:5
+break
+case 4:n=p.a
+s=6
+return A.b(n.A(500),$async$k)
+case 6:A.o("start-game")
+m=n.e
+m.sbh(0)
+l=$.t()
+l.c.a.append(m.a)
+m=n.f
+k=A.a(A.a(v.G.document).createElement("div"))
+j=new A.iG(k)
+j.j(k,200,20,110,640)
+j.sD(25)
+j.sq("#008f6f")
+i=j.gH()
+i=A.w("",j.gM(),null,30,i)
+h=i.a
+A.a(h.style).lineHeight="75px"
+h.innerHTML=$.r.v().P("opening")
+i.F(48,"#eeffee",!0)
+k.append(h)
+m.r=j
+m.a.append(k)
+m=n.x
+if(m.J(l.z)!=null)n.y.kH()
+l=n.a
+l.append(m.a)
+l.append(n.y.a)
+s=7
+return A.b(n.A(1500),$async$k)
+case 7:s=3
+break
+case 5:s="gift"===o?8:9
+break
+case 8:n=p.a
+m=n.x
+s=m.u(c3.b)===m.J($.t().z)?10:11
+break
+case 10:m=c3.as
+m.toString
+n=n.y
+s=12
+return A.b(n.l1().e_(m),$async$k)
+case 12:if(!n.glc()&&m.gL().d!==B.I)n.ar(0)
+case 11:s=3
+break
+case 9:s="useDevilItem"===o?13:14
+break
+case 13:n=p.a
+m=n.x
+g=m.u(c3.b)
+l=c3.as
+l.toString
+j=n.f
+j.aa(0)
+s=15
+return A.b(n.A(500),$async$k)
+case 15:f=0
+switch(l.gL().y){case"dealDamage":switch(l.gL().z){case 10:A.o("devil-to-deal-damage-1")
+f=750
+break
+case 20:A.o("devil-to-deal-damage-2")
+f=1000
+break
+case 30:A.o("devil-to-deal-damage-3")
+f=1250
+break}break
+case"removeSomething":A.o("devil-to-remove-something")
+f=1500
+break
+case"boostSomething":A.o("devil-to-boost-something")
+f=1500
+break}j.az(B.b,g)
+j.af(B.b,A.a4(l.gL(),0,!1,0,null,!1,0,0))
+j.aL(B.b)
+j=$.t()
+if(g===m.J(j.z))n.y.bL(l.a).aY(!0)
+s=16
+return A.b(n.A(f),$async$k)
+case 16:if(g===m.J(j.z))n.y.ee(l.a)
+s=3
+break
+case 14:s="advanceGF"===o?17:18
+break
+case 17:n=p.a
+m=n.f
+m.aa(0)
+l=n.e
+s=l.e===0&&l.d===1?19:21
+break
+case 19:s=22
+return A.b(n.cw(!0),$async$k)
+case 22:s=20
+break
+case 21:s=23
+return A.b(n.A(500),$async$k)
+case 23:case 20:l.sbh(l.e+1)
+j=l.d
+s=l.e===j&&j!==1?24:25
+break
+case 24:A.o("tiebreak")
+k=A.a(A.a(v.G.document).createElement("div"))
+l=new A.j3(k)
+l.j(k,150,20,135,640)
+l.sD(25)
+l.sq("#111111")
+j=$.r.v()
+i=A.w(j.P("tiebreak"),60,10,15,l.gH()-20)
+i.F(48,"#cc6644",!0)
+i.E()
+k.append(i.a)
+j=A.w(j.P("tiebreakBody"),60,10,75,l.gH()-20)
+j.F(48,"#dd7799",!0)
+j.E()
+k.append(j.a)
+m.w=l
+m.a.append(k)
+s=26
+return A.b(n.iy(),$async$k)
+case 26:s=27
+return A.b(n.A(500),$async$k)
+case 27:m.aa(0)
+s=28
+return A.b(n.A(500),$async$k)
+case 28:case 25:l=n.x
+g=l.u(c3.b)
+m.az(m.Q?B.b:B.a,g)
+s=g.cx>0?29:31
+break
+case 29:s=32
+return A.b(n.r.bI(),$async$k)
+case 32:s=30
+break
+case 31:if(g!==l.J($.t().z))A.o("turn-player")
+s=g.w?33:34
+break
+case 33:s=35
+return A.b(n.A(500),$async$k)
+case 35:case 34:case 30:s=3
+break
+case 18:s="attackByGuardian"===o?36:37
+break
+case 36:n=p.a
+m=n.f
+m.aa(0)
+s=38
+return A.b(n.A(500),$async$k)
+case 38:e=m.Q?B.b:B.a
+d=c3.c
+g=n.x.u(d.a)
+m.az(e,g)
+l=d.b
+l.toString
+s=39
+return A.b(n.r.dD(l),$async$k)
+case 39:l=g.ch
+m.bk(l==null?null:l.c)
+m.af(e,null)
+c=d.c
+if(c.length===1)m.af(e,null)
+b=A.u([],t.G)
+l=c.length,a=0
+case 40:if(!(a<c.length)){s=42
+break}a0=c[a]
+A.o("select-item")
+j=a0-1
+if(!(j>=0&&j<$.p.length)){q=A.c($.p,j)
+s=1
+break}a1=$.p[j]
+B.c.t(b,a1)
+m.af(e,A.a4(a1,0,!1,0,null,!1,0,0))
+m.aL(e)
+m.a_(e,A.aR(b,!1,0,0))
+s=43
+return A.b(n.A(500),$async$k)
+case 43:case 41:c.length===l||(0,A.G)(c),++a
+s=40
+break
+case 42:s=B.c.gI(b).y==="atkBy2xMP"?44:45
+break
+case 44:n=g.at
+s=46
+return A.b(p.bF(b,2*A.x(n.gK())),$async$k)
+case 46:n.a.textContent="0"
+case 45:s=3
+break
+case 37:s="useAttackItems"===o?47:48
+break
+case 47:n=p.a
+m=n.f
+l=m.u(m.Q?B.b:B.a)
+l.toString
+e=m.Q?B.b:B.a
+a2=l===n.x.J($.t().z)&&l.cx>0
+j=c3.at
+s=j.length===0?49:51
+break
+case 49:A.o("use-no-items")
+m.a_(e,A.aR(A.u([],t.G),!1,0,0))
+s=52
+return A.b(n.A(500),$async$k)
+case 52:if(a2)n.y.bb(A.of())
+s=50
+break
+case 51:i=B.c.gI(j).b-1
+if(!(i>=0&&i<$.p.length)){q=A.c($.p,i)
+s=1
+break}a3=$.p[i]
+a4=m.u(e).CW!=null&&a3.d!==B.k&&A.ar(["exchange","boostHP","boostMP","boostCP","removeMildCurses","removeAllCurses","setGuardian"],t.N).R(0,a3.y)
+b=A.u([],t.G)
+i=j.length,h=n.y,a=0
+case 53:if(!(a<j.length)){s=55
+break}a5=j[a]
+A.o("select-item")
+a6=a5.c
+a7=a6>0
+a8=$.p.length
+if(a7){a9=a6-1
+if(!(a9<a8)){q=A.c($.p,a9)
+s=1
+break}a9=$.p[a9]
+a8=a9}else{a9=a5.b-1
+if(!(a9>=0&&a9<a8)){q=A.c($.p,a9)
+s=1
+break}a9=$.p[a9]
+a8=a9}B.c.t(b,a8)
+s=a4?56:58
+break
+case 56:a6=a5.b-1
+if(!(a6>=0&&a6<$.p.length)){q=A.c($.p,a6)
+s=1
+break}m.hI(e,A.a4($.p[a6],0,!1,0,null,!1,0,0),!0)
+m.aL(e)
+m.a_(e,A.aR(b,!1,0,0))
+s=57
+break
+case 58:b0=a6!==0
+a8=$.p.length
+if(a7){--a6
+if(!(a6<a8)){q=A.c($.p,a6)
+s=1
+break}a6=$.p[a6]}else{a6=a5.b-1
+if(!(a6>=0&&a6<a8)){q=A.c($.p,a6)
+s=1
+break}a6=$.p[a6]}m.af(e,A.a4(a6,0,!1,0,null,b0,0,0))
+m.aL(e)
+m.a_(e,A.aR(b,!1,0,0))
+if(a2)h.bL(a5.a).aY(!0)
+s=b0?59:60
+break
+case 59:s=61
+return A.b(p.cA(e,a5),$async$k)
+case 61:if(0>=b.length){q=A.c(b,-1)
+s=1
+break}b.pop()
+a6=a5.b-1
+if(!(a6>=0&&a6<$.p.length)){q=A.c($.p,a6)
+s=1
+break}B.c.t(b,$.p[a6])
+m.a_(e,A.aR(b,!1,0,0))
+case 60:case 57:s=62
+return A.b(n.A(500),$async$k)
+case 62:case 54:j.length===i||(0,A.G)(j),++a
+s=53
+break
+case 55:s=a4?63:64
+break
+case 63:s=65
+return A.b(n.A(500),$async$k)
+case 65:case 64:l.dH(-A.la(b))
+B:{b1=B.c.gI(b).y
+if("discard"===b1||"sacrifice"===b1){l.e8(j)
+break B}if("sell"===b1)break B
+l.hG(j)}s=B.c.gI(b).y==="atkBy2xMP"?66:67
+break
+case 66:n=l.at
+s=68
+return A.b(p.bF(b,2*A.x(n.gK())),$async$k)
+case 68:n.a.textContent="0"
+case 67:if(a2){h.fj()
+h.ee(B.c.gI(j).a)
+h.ar(0)}case 50:n=l.cx
+if(n>0)l.sc8(n-1)
+s=3
+break
+case 48:s="pray"===o?69:70
+break
+case 69:s=71
+return A.b(p.a.r.e3(),$async$k)
+case 71:s=72
+return A.b(p.bE(B.a,c3.ax,!0),$async$k)
+case 72:s=3
+break
+case 70:s="discard"===o||"sacrifice"===o?73:74
+break
+case 73:n=p.a
+s=75
+return A.b(n.A(500),$async$k)
+case 75:m=n.f
+e=m.Q?B.b:B.a
+l=A.a7(m.aO(e),t.e4)
+B.c.n(l,0,null)
+while(m.a5(e).length>1){j=m.a5(e)
+if(0>=j.length){q=A.c(j,-1)
+s=1
+break A}J.dx(j.pop())}s=76
+return A.b(n.r.ci(l,o==="sacrifice",e),$async$k)
+case 76:s=3
+break
+case 74:s="phenomenon"===o?77:78
+break
+case 77:n=p.a
+m=n.f
+e=m.Q?B.b:B.a
+s=79
+return A.b(n.A(2000),$async$k)
+case 79:A.o("phenomenon")
+l=c3.Q-1
+if(!(l>=0&&l<$.p.length)){q=A.c($.p,l)
+s=1
+break}a1=$.p[l]
+b=m.aO(e)
+B.c.t(b,a1)
+if(m.y!=null)B.c.aB(m.a5(e),0).l(0)
+m.af(e,A.a4(a1,0,!1,0,null,!1,0,0))
+m.aL(e)
+m.a_(e,A.aR(b,!1,0,0))
+s=80
+return A.b(n.A(2000),$async$k)
+case 80:s=3
+break
+case 78:s="useDefenseItems"===o?81:82
+break
+case 81:n=p.a
+m=n.f
+if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null){l=m.Q
+e=l?B.b:B.a}else{l=m.Q
+e=(l?B.b:B.a)===B.a?B.b:B.a}j=c3.at
+s=j.length===0?83:85
+break
+case 83:A.o("use-no-items")
+if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)l=m.Q?B.b:B.a
+else l=(m.Q?B.b:B.a)===B.a?B.b:B.a
+m.a_(l,A.jZ(A.u([],t.G)))
+s=86
+return A.b(n.A(500),$async$k)
+case 86:s=84
+break
+case 85:b2=m.aO(l?B.b:B.a)
+b=A.u([],t.G)
+l=j.length,a=0
+case 87:if(!(a<j.length)){s=89
+break}a5=j[a]
+A.o("select-item")
+i=a5.c
+b0=i!==0
+h=i>0
+a6=$.p.length
+if(h){a7=i-1
+if(!(a7<a6)){q=A.c($.p,a7)
+s=1
+break}a7=$.p[a7]
+a6=a7}else{a7=a5.b-1
+if(!(a7>=0&&a7<a6)){q=A.c($.p,a7)
+s=1
+break}a7=$.p[a7]
+a6=a7}m.af(e,A.a4(a6,0,!1,0,null,b0,0,0))
+m.aL(e)
+a6=$.p.length
+if(h){a7=i-1
+if(!(a7<a6)){q=A.c($.p,a7)
+s=1
+break}a7=$.p[a7]}else{a7=a5.b-1
+if(!(a7>=0&&a7<a6)){q=A.c($.p,a7)
+s=1
+break}a7=$.p[a7]}s=a7.y==="filterAtkElement"?90:92
+break
+case 90:i=m.Q?B.b:B.a
+m.a_(i,A.aR(b2,!0,m.gaW().e,m.gaW().f))
+s=91
+break
+case 92:if(h){--i
+if(!(i<a6)){q=A.c($.p,i)
+s=1
+break}i=$.p[i]}else{i=a5.b-1
+if(!(i>=0&&i<a6)){q=A.c($.p,i)
+s=1
+break}i=$.p[i]}B.c.t(b,i)
+m.a_(e,A.jZ(b))
+s=b0?93:94
+break
+case 93:s=95
+return A.b(p.cA(e,a5),$async$k)
+case 95:if(0>=b.length){q=A.c(b,-1)
+s=1
+break}b.pop()
+i=a5.b-1
+if(!(i>=0&&i<$.p.length)){q=A.c($.p,i)
+s=1
+break}B.c.t(b,$.p[i])
+m.a_(e,A.jZ(b))
+case 94:case 91:s=96
+return A.b(n.A(500),$async$k)
+case 96:case 88:j.length===l||(0,A.G)(j),++a
+s=87
+break
+case 89:n=n.gan()
+n.toString
+n.dH(-A.la(b))
+n.hG(j)
+case 84:s=3
+break
+case 82:s="nextAttack"===o?97:98
+break
+case 97:d=c3.c
+n=p.a
+n.f.fv(d,n.x.u(d.a))
+s=99
+return A.b(n.A(500),$async$k)
+case 99:s=3
+break
+case 98:s="setTargetPlayer"===o?100:101
+break
+case 100:n=p.a
+m=n.x
+g=m.u(c3.b)
+n.aT(g)
+l=n.f
+s=l.u((l.Q?B.b:B.a)===B.a?B.b:B.a)!=null?102:103
+break
+case 102:j=l.a5(l.Q?B.b:B.a)
+i=j.length
+a=0
+case 104:if(!(a<j.length)){s=106
+break}s=107
+return A.b(j[a].aX(),$async$k)
+case 107:case 105:j.length===i||(0,A.G)(j),++a
+s=104
+break
+case 106:case 103:b=l.aO(l.Q?B.b:B.a)
+b3=l.u(l.Q?B.b:B.a)
+s=b3.CW==null&&b3.ay.ak(B.q)&&l.y==null&&g.ce(b3)&&m.dR(b3).length>=2&&B.c.gI(b).d!==B.u&&!A.ar(["attackSomebody","danger"],t.N).R(0,B.c.gI(b).y)&&!B.c.bn(b,new A.kr())?108:110
+break
+case 108:A.o("fog")
+if(l.u((l.Q?B.b:B.a)===B.a?B.b:B.a)==null)m=l.Q?B.b:B.a
+else m=(l.Q?B.b:B.a)===B.a?B.b:B.a
+s=111
+return A.b(l.c.i(0,m).aX(),$async$k)
+case 111:s=109
+break
+case 110:if(l.u((l.Q?B.b:B.a)===B.a?B.b:B.a)==null||g.x||g!==m.J($.t().z))A.o("target-player")
+case 109:s=l.u((l.Q?B.b:B.a)===B.a?B.b:B.a)==null?112:114
+break
+case 112:s=115
+return A.b(n.A(500),$async$k)
+case 115:s=113
+break
+case 114:s=116
+return A.b(p.bB(g),$async$k)
+case 116:case 113:s=3
+break
+case 101:s="hit"===o?117:118
+break
+case 117:n=p.a
+m=n.x
+g=m.u(c3.b)
+n.aT(g)
+if(g.ay.ak(B.J)){l=$.t()
+j=!0
+if(m.J(l.z)!=null)if(!m.J(l.z).x)if(m.J(l.z).ay.ak(B.q)){m=m.J(l.z)
+m.toString
+m=!g.ce(m)}else m=j
+else m=j
+else m=j}else m=!1
+n=n.r
+s=m?119:121
+break
+case 119:s=122
+return A.b(n.dM(),$async$k)
+case 122:s=120
+break
+case 121:s=123
+return A.b(n.dW(),$async$k)
+case 123:case 120:s=124
+return A.b(p.bB(g),$async$k)
+case 124:s=3
+break
+case 118:s="miss"===o?125:126
+break
+case 125:n=p.a
+n.aT(n.x.u(c3.b))
+s=127
+return A.b(n.r.dY(),$async$k)
+case 127:s=3
+break
+case 126:s="danger"===o?128:129
+break
+case 128:s=130
+return A.b(p.a.A(2000),$async$k)
+case 130:s=3
+break
+case 129:s="attractDanger"===o?131:132
+break
+case 131:A.o("attract-danger")
+n=c3.as
+n.toString
+m=p.a
+l=m.x
+g=l.u(c3.b)
+m.aT(g)
+j=m.f
+if(j.u((j.Q?B.b:B.a)===B.a?B.b:B.a)==null)e=j.Q?B.b:B.a
+else e=(j.Q?B.b:B.a)===B.a?B.b:B.a
+b0=n.c!==0
+if(j.y!=null&&j.a5(e).length!==0)B.c.aB(j.a5(e),0).l(0)
+j.af(e,A.a4(n.gL(),0,!1,0,null,b0,0,0))
+j.aL(e)
+j=$.t()
+if(g===l.J(j.z))m.y.bL(n.a).aY(!0)
+s=133
+return A.b(m.A(500),$async$k)
+case 133:s=b0?134:135
+break
+case 134:s=136
+return A.b(p.cA(e,n),$async$k)
+case 136:case 135:s=137
+return A.b(m.A(500),$async$k)
+case 137:if(g===l.J(j.z)){n=m.y
+n.d_()
+n.ar(0)}s=3
+break
+case 132:s="bounce"===o?138:139
+break
+case 138:n=p.a
+m=n.f
+if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)l=m.Q?B.b:B.a
+else l=(m.Q?B.b:B.a)===B.a?B.b:B.a
+s=140
+return A.b(n.r.dJ(l),$async$k)
+case 140:l=m.gaW()
+j=m.gaW()
+m.az(m.Q?B.b:B.a,null)
+m.b5(null)
+m.a_(m.Q?B.b:B.a,null)
+s=141
+return A.b(m.cZ(m.Q?B.b:B.a),$async$k)
+case 141:i=m.Q
+h=i?B.b:B.a
+m.a_(h,A.aR(m.aO(i?B.b:B.a),!1,l.e,j.f))
+l=n.x
+b4=l.u(c3.b)
+n.aT(b4)
+if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null||b4!==l.J($.t().z))A.o("target-player")
+s=m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null?142:144
+break
+case 142:s=145
+return A.b(n.A(500),$async$k)
+case 145:s=143
+break
+case 144:s=146
+return A.b(p.bB(b4),$async$k)
+case 146:case 143:s=3
+break
+case 139:s="reflect"===o?147:148
+break
+case 147:n=p.a
+m=n.f
+if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)l=m.Q?B.b:B.a
+else l=(m.Q?B.b:B.a)===B.a?B.b:B.a
+s=149
+return A.b(n.r.e4(l),$async$k)
+case 149:l=m.gaW()
+j=m.gaW()
+i=m.u(m.Q?B.b:B.a)
+i.toString
+m.az(m.Q?B.b:B.a,null)
+m.b5(null)
+m.a_(m.Q?B.b:B.a,null)
+s=150
+return A.b(m.cZ(m.Q?B.b:B.a),$async$k)
+case 150:h=m.Q
+a6=h?B.b:B.a
+m.a_(a6,A.aR(m.aO(h?B.b:B.a),!1,l.e,j.f))
+n.aT(i)
+if(i.x||i!==n.x.J($.t().z))A.o("target-player")
+s=151
+return A.b(p.bB(i),$async$k)
+case 151:s=3
+break
+case 148:s="block"===o?152:153
+break
+case 152:n=p.a
+m=n.f
+if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)m=m.Q?B.b:B.a
+else m=(m.Q?B.b:B.a)===B.a?B.b:B.a
+s=154
+return A.b(n.r.dE(m),$async$k)
+case 154:s=3
+break
+case 153:s="safe"===o?155:156
+break
+case 155:n=p.a
+m=n.f
+s=!m.gbN()?157:158
+break
+case 157:if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)m=m.Q?B.b:B.a
+else m=(m.Q?B.b:B.a)===B.a?B.b:B.a
+s=159
+return A.b(n.r.cn(m),$async$k)
+case 159:case 158:s=3
+break
+case 156:s="exchange"===o?160:161
+break
+case 160:b5=c3.e
+b6=c3.f
+b7=c3.r
+n=p.a
+m=n.f
+l=m.u(m.Q?B.b:B.a)
+l.toString
+s=!m.gbN()?162:163
+break
+case 162:s=164
+return A.b(n.r.ca(l,b5,b6,b7),$async$k)
+case 164:case 163:l.as.a.textContent=""+b5
+l.at.a.textContent=""+b6
+l.ax.a.textContent=""+b7
+s=3
+break
+case 161:s="sell"===o?165:166
+break
+case 165:a5=c3.as
+a1=a5.gL()
+n=p.a
+m=n.f
+l=m.a5(m.Q?B.b:B.a)
+if(0>=l.length){q=A.c(l,-1)
+s=1
+break}J.dx(l.pop())
+l=n.r
+s=m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null?167:169
+break
+case 167:s=170
+return A.b(l.fu(a1,B.a,B.a),$async$k)
+case 170:s=168
+break
+case 169:m.bg()
+j=m.Q
+i=j?B.b:B.a
+if(m.u((j?B.b:B.a)===B.a?B.b:B.a)==null)j=m.Q?B.b:B.a
+else j=(m.Q?B.b:B.a)===B.a?B.b:B.a
+s=171
+return A.b(l.co(a1,j,m.y!=null,i),$async$k)
+case 171:case 168:l=a1.at
+n.gan().bc(-l)
+m.u(m.Q?B.b:B.a).bc(l)
+if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)m=m.Q?B.b:B.a
+else m=(m.Q?B.b:B.a)===B.a?B.b:B.a
+s=172
+return A.b(p.eI(m,c3.ax),$async$k)
+case 172:s=n.gan()==n.x.J($.t().z)?173:174
+break
+case 173:m=n.y
+m.bb(a5)
+m.ar(0)
+s=175
+return A.b(n.A(500),$async$k)
+case 175:case 174:s=3
+break
+case 166:s="buy"===o?176:177
+break
+case 176:n=p.a.f
+if(n.u((n.Q?B.b:B.a)===B.a?B.b:B.a)!=null){if(n.u((n.Q?B.b:B.a)===B.a?B.b:B.a)==null)e=n.Q?B.b:B.a
+else e=(n.Q?B.b:B.a)===B.a?B.b:B.a
+n.bg()
+n.au(e)
+n.a_(e,null)
+n.af(e,null)}if(n.u((n.Q?B.b:B.a)===B.a?B.b:B.a)==null)n=n.Q?B.b:B.a
+else n=(n.Q?B.b:B.a)===B.a?B.b:B.a
+m=c3.as
+m.toString
+s=178
+return A.b(p.ds(n,A.u([m],t.po)),$async$k)
+case 178:s=3
+break
+case 177:s="canNotBuy"===o?179:180
+break
+case 179:n=p.a
+m=n.f
+l=n.r
+s=m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null?181:183
+break
+case 181:s=184
+return A.b(n.A(500),$async$k)
+case 184:if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)m=m.Q?B.b:B.a
+else m=(m.Q?B.b:B.a)===B.a?B.b:B.a
+s=185
+return A.b(l.cn(m),$async$k)
+case 185:s=182
+break
+case 183:s=186
+return A.b(l.e2(m.Q?B.b:B.a),$async$k)
+case 186:case 182:s=n.gan()==n.x.J($.t().z)?187:188
+break
+case 187:m=n.y
+l=c3.as
+l.toString
+m.bb(l)
+m.ar(0)
+s=189
+return A.b(n.A(500),$async$k)
+case 189:case 188:s=3
+break
+case 180:s="setBought"===o?190:191
+break
+case 190:n=c3.as
+n.toString
+m=p.a
+l=m.f
+e=l.Q?B.b:B.a
+l.bk(null)
+l.au(e)
+s=192
+return A.b(m.A(500),$async$k)
+case 192:j=m.r
+i=c3.ch
+s=193
+return A.b(j.d3(i,e),$async$k)
+case 193:s=i?194:195
+break
+case 194:if(l.u((l.Q?B.b:B.a)===B.a?B.b:B.a)==null)h=l.Q?B.b:B.a
+else h=(l.Q?B.b:B.a)===B.a?B.b:B.a
+l.au(h)
+a1=n.gL()
+if(l.u((l.Q?B.b:B.a)===B.a?B.b:B.a)==null)h=l.Q?B.b:B.a
+else h=(l.Q?B.b:B.a)===B.a?B.b:B.a
+s=196
+return A.b(j.fu(a1,e,h),$async$k)
+case 196:j=a1.at
+l.u(l.Q?B.b:B.a).bc(-j)
+m.gan().bc(j)
+s=197
+return A.b(p.eI(e,c3.ax),$async$k)
+case 197:case 195:if(i)l=l.u(l.Q?B.b:B.a)
+else l=m.gan()
+s=l==m.x.J($.t().z)?198:199
+break
+case 198:l=m.y
+l.bb(n)
+l.ar(0)
+s=200
+return A.b(m.A(500),$async$k)
+case 200:case 199:s=3
+break
+case 191:s="addItem"===o?201:202
+break
+case 201:n=c3.as
+n.toString
+m=p.a
+s=203
+return A.b(m.A(500),$async$k)
+case 203:l=m.f
+e=l.Q?B.b:B.a
+l.bk(null)
+l.au(e)
+s=204
+return A.b(m.r.dB(n.gL()),$async$k)
+case 204:s=205
+return A.b(p.eI(e,c3.ax),$async$k)
+case 205:s=l.u(l.Q?B.b:B.a)==m.x.J($.t().z)?206:207
+break
+case 206:l=m.y
+l.bb(n)
+l.ar(0)
+s=208
+return A.b(m.A(500),$async$k)
+case 208:case 207:s=3
+break
+case 202:s="dealDamage"===o?209:210
+break
+case 209:n=c3.b
+m=p.a
+if(n===0){n=m.gan()
+n.toString
+g=n}else g=m.x.u(n)
+n=c3.d
+l=m.bv(g)
+l.toString
+s=211
+return A.b(m.r.dN(n,l),$async$k)
+case 211:g.eW(-n)
+s=3
+break
+case 210:s="dealDarkDamage"===o?212:213
+break
+case 212:n=p.a
+m=n.gan().as
+l=A.x(m.gK())
+j=n.f
+if(j.u((j.Q?B.b:B.a)===B.a?B.b:B.a)==null)j=j.Q?B.b:B.a
+else j=(j.Q?B.b:B.a)===B.a?B.b:B.a
+s=214
+return A.b(n.r.dO(l,j),$async$k)
+case 214:m.a.textContent="0"
+s=3
+break
+case 213:s="boostHP"===o?215:216
+break
+case 215:n=c3.b
+m=p.a
+if(n===0){n=m.gan()
+n.toString
+g=n}else g=m.x.u(n)
+s=!m.f.gbN()?217:218
+break
+case 217:n=m.bv(g)
+n.toString
+s=219
+return A.b(m.r.dG(c3.e,n),$async$k)
+case 219:case 218:g.eW(c3.e)
+s=3
+break
+case 216:if("setHPOfEverybody"===o){for(n=p.a.x.aG(),m=n.length,l=""+c3.e,a=0;a<n.length;n.length===m||(0,A.G)(n),++a)n[a].as.a.textContent=l
+s=3
+break}s="boostMP"===o?220:221
+break
+case 220:n=p.a
+m=n.f
+s=!m.gbN()?222:223
+break
+case 222:if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)m=m.Q?B.b:B.a
+else m=(m.Q?B.b:B.a)===B.a?B.b:B.a
+s=224
+return A.b(n.r.dI(c3.f,m),$async$k)
+case 224:case 223:n.gan().dH(c3.f)
+s=3
+break
+case 221:s="boostCP"===o?225:226
+break
+case 225:n=p.a
+m=n.f
+s=!m.gbN()?227:228
+break
+case 227:if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)m=m.Q?B.b:B.a
+else m=(m.Q?B.b:B.a)===B.a?B.b:B.a
+s=229
+return A.b(n.r.dF(c3.r,m),$async$k)
+case 229:case 228:n.gan().bc(c3.r)
+s=3
+break
+case 226:s="boostCPOfEverybody"===o?230:231
+break
+case 230:A.o("boost-cp")
+n=p.a
+s=232
+return A.b(n.A(1000),$async$k)
+case 232:for(n=n.x.aG(),m=n.length,l=c3.r,a=0;a<n.length;n.length===m||(0,A.G)(n),++a)n[a].bc(l)
+s=3
+break
+case 231:if("collectCPOfEverybody"===o){for(n=p.a.x,m=n.aG(),l=m.length,b7=0,a=0;a<m.length;m.length===l||(0,A.G)(m),++a){j=m[a].ax.a
+i=A.cJ(j.textContent)
+b7+=A.x(i==null?"":i)
+j.textContent="0"}n.u(c3.b).bc(b7)
+s=3
+break}s="takeCP"===o?233:234
+break
+case 233:n=p.a
+m=c3.r
+l=n.f
+j=l.Q?B.b:B.a
+s=235
+return A.b(n.r.e9(m,j),$async$k)
+case 235:n.gan().bc(-m)
+l.u(l.Q?B.b:B.a).bc(m)
+s=3
+break
+case 234:s="addCurse"===o?236:237
+break
+case 236:n=c3.w
+n.toString
+m=p.a
+l=m.f
+if(l.u((l.Q?B.b:B.a)===B.a?B.b:B.a)==null)l=l.Q?B.b:B.a
+else l=(l.Q?B.b:B.a)===B.a?B.b:B.a
+s=238
+return A.b(m.r.c4(n,l),$async$k)
+case 238:g=m.gan()
+g.dA(n)
+s=n===B.q&&g==m.x.J($.t().z)&&!g.x?239:240
+break
+case 239:s=241
+return A.b(p.bC(!0),$async$k)
+case 241:case 240:s=3
+break
+case 237:s="setCurseOfEverybody"===o?242:243
+break
+case 242:n=c3.w
+n.toString
+for(m=p.a.x,l=m.aG(),j=l.length,a=0;a<l.length;l.length===j||(0,A.G)(l),++a)l[a].dA(n)
+if(n===B.q){n=$.t()
+n=m.J(n.z)!=null&&!m.J(n.z).x}else n=!1
+s=n?244:245
+break
+case 244:s=246
+return A.b(p.bC(!0),$async$k)
+case 246:case 245:s=3
+break
+case 243:s="disease"===o?247:248
+break
+case 247:n=p.a
+g=n.x.u(c3.b)
+e=n.bv(g)
+s=e==null?249:251
+break
+case 249:m=n.f
+m.aa(0)
+s=252
+return A.b(n.A(500),$async$k)
+case 252:m.az(B.a,g)
+e=B.a
+s=250
+break
+case 251:m=n.f
+if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)l=m.Q?B.b:B.a
+else l=(m.Q?B.b:B.a)===B.a?B.b:B.a
+if(e===l)m.bg()
+m.au(e)
+m.a_(e,null)
+case 250:m=g.geZ()
+m.toString
+s=253
+return A.b(n.r.dQ(m,e),$async$k)
+case 253:s=3
+break
+case 248:s="upgradeDisease"===o?254:255
+break
+case 254:n=c3.w
+n.toString
+m=p.a
+g=m.x.u(c3.b)
+l=g.geZ()
+l.toString
+j=m.bv(g)
+j.toString
+s=256
+return A.b(m.r.ck(l,n,c3.CW,j),$async$k)
+case 256:g.dA(n)
+s=3
+break
+case 255:s="upgradeHeaven"===o?257:258
+break
+case 257:n=p.a
+m=n.bv(n.x.u(c3.b))
+m.toString
+s=259
+return A.b(n.r.cl(c3.CW,m),$async$k)
+case 259:s=3
+break
+case 258:s="removeCurses"===o?260:261
+break
+case 260:n=p.a
+m=n.f
+s=!m.gbN()?262:263
+break
+case 262:if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)l=m.Q?B.b:B.a
+else l=(m.Q?B.b:B.a)===B.a?B.b:B.a
+s=264
+return A.b(n.r.cW(c3.x,l),$async$k)
+case 264:case 263:for(l=c3.x,j=l.length,i=m.c,a=0;a<l.length;l.length===j||(0,A.G)(l),++a){b8=l[a]
+h=i.i(0,(m.Q?B.b:B.a)===B.a?B.b:B.a)
+h=h==null?null:h.c
+if(h==null){h=i.i(0,m.Q?B.b:B.a)
+h=h==null?null:h.c}h=h.ay.aK(0,b8)
+if(h!=null)h.l(0)}if(B.c.R(l,B.K)){m=n.gan()
+m.toString
+n.w.c.t(0,m)}s=n.gan()==n.x.J($.t().z)?265:266
+break
+case 265:s=B.c.R(l,B.q)?267:268
+break
+case 267:s=269
+return A.b(p.bC(!1),$async$k)
+case 269:case 268:s=B.c.R(l,B.K)&&n.y.gld()?270:271
+break
+case 270:m=n.y
+s=272
+return A.b(m.e5(),$async$k)
+case 272:m.ar(0)
+s=273
+return A.b(n.A(500),$async$k)
+case 273:case 271:case 266:s=3
+break
+case 261:if("confuseEverybody"===o){for(n=p.a.x.aG(),m=n.length,a=0;a<n.length;n.length===m||(0,A.G)(n),++a){g=n[a]
+g.sc8(g.cx+3)}s=3
+break}s="setGuardian"===o?274:275
+break
+case 274:n=p.a
+m=n.f
+s=!m.gbN()?276:277
+break
+case 276:l=c3.y
+l.toString
+if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)m=m.Q?B.b:B.a
+else m=(m.Q?B.b:B.a)===B.a?B.b:B.a
+s=278
+return A.b(n.r.cs(l,m),$async$k)
+case 278:case 277:n.gan().sd1(c3.y)
+s=3
+break
+case 275:if("setGuardianOfEverybody"===o){for(n=p.a.x.aG(),m=n.length,l=c3.z,a=0;a<n.length;n.length===m||(0,A.G)(n),++a)n[a].sd1(B.c.aB(l,0))
+s=3
+break}s="removeGuardian"===o?279:280
+break
+case 279:n=p.a
+g=n.x.u(c3.b)
+s=g.CW==null?281:282
+break
+case 281:m=g.ch
+m=m==null?null:m.c
+m.toString
+l=n.bv(g)
+l.toString
+s=283
+return A.b(n.r.cX(m,l),$async$k)
+case 283:case 282:g.sd1(null)
+s=3
+break
+case 280:s="removeItems"===o?284:285
+break
+case 284:n=p.a
+m=n.f
+if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)e=m.Q?B.b:B.a
+else e=(m.Q?B.b:B.a)===B.a?B.b:B.a
+m.bg()
+m.au(e)
+m.a_(e,null)
+s=m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null?286:287
+break
+case 286:s=288
+return A.b(n.A(500),$async$k)
+case 288:case 287:s=289
+return A.b(p.ds(e,c3.at),$async$k)
+case 289:s=290
+return A.b(n.A(500),$async$k)
+case 290:b=m.aO(e)
+m.au(e)
+s=291
+return A.b(n.r.e6(b,e),$async$k)
+case 291:s=3
+break
+case 285:s="removeUsedMiracles"===o?292:293
+break
+case 292:n=p.a
+m=n.f
+if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)e=m.Q?B.b:B.a
+else e=(m.Q?B.b:B.a)===B.a?B.b:B.a
+m.bg()
+m.au(e)
+m.a_(e,null)
+m.af(e,null)
+s=m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null?294:295
+break
+case 294:s=296
+return A.b(n.A(500),$async$k)
+case 296:case 295:l=c3.at
+s=297
+return A.b(p.ds(e,l),$async$k)
+case 297:n.gan().e8(l)
+s=298
+return A.b(n.A(500),$async$k)
+case 298:l=A.u([null],t.gn)
+B.c.am(l,m.aO(e))
+m.au(e)
+s=299
+return A.b(n.r.e6(l,e),$async$k)
+case 299:s=3
+break
+case 293:s="removeSomething"===o?300:301
+break
+case 300:n=c3.at
+s=302
+return A.b(p.ds(B.b,n),$async$k)
+case 302:m=p.a
+m.gan().e8(n)
+s=303
+return A.b(m.A(500),$async$k)
+case 303:n=m.f
+l=A.a7(n.aO(B.b),t.e4)
+B.c.n(l,0,null)
+while(n.a5(B.b).length>1){j=n.a5(B.b)
+if(0>=j.length){q=A.c(j,-1)
+s=1
+break A}J.dx(j.pop())}s=304
+return A.b(m.r.e6(l,B.b),$async$k)
+case 304:s=3
+break
+case 301:s="redraw"===o?305:306
+break
+case 305:n=p.a
+m=n.f
+if(m.u((m.Q?B.b:B.a)===B.a?B.b:B.a)==null)m=m.Q?B.b:B.a
+else m=(m.Q?B.b:B.a)===B.a?B.b:B.a
+s=307
+return A.b(n.r.cV(m),$async$k)
+case 307:s=3
+break
+case 306:s="replaceItems"===o?308:309
+break
+case 308:n=p.a
+m=n.x
+g=m.u(c3.b)
+g.db.jG()
+s=g===m.J($.t().z)?310:311
+break
+case 310:m=n.y
+m.lJ(c3.at)
+m.ar(0)
+s=312
+return A.b(n.A(500),$async$k)
+case 312:case 311:s=3
+break
+case 309:s="selfCurse"===o?313:314
+break
+case 313:A.o("self-curse")
+n=p.a.f
+if(n.u((n.Q?B.b:B.a)===B.a?B.b:B.a)==null)m=n.Q?B.b:B.a
+else m=(n.Q?B.b:B.a)===B.a?B.b:B.a
+m=n.a5(m)
+n=c3.ay
+if(!(n>=0&&n<m.length)){q=A.c(m,n)
+s=1
+break}s=315
+return A.b(m[n].bU(),$async$k)
+case 315:s=3
+break
+case 314:s="counterAttack"===o?316:317
+break
+case 316:A.o("counter-attack")
+n=p.a.f
+if(n.u((n.Q?B.b:B.a)===B.a?B.b:B.a)==null)m=n.Q?B.b:B.a
+else m=(n.Q?B.b:B.a)===B.a?B.b:B.a
+m=n.a5(m)
+n=c3.ay
+if(!(n>=0&&n<m.length)){q=A.c(m,n)
+s=1
+break}s=318
+return A.b(m[n].bU(),$async$k)
+case 318:s=3
+break
+case 317:s="revive"===o?319:320
+break
+case 319:n=c3.as
+n.toString
+m=p.a
+l=m.x
+g=l.u(c3.b)
+j=m.bv(g)
+j.toString
+i=m.f
+if(j===(i.Q?B.b:B.a))i.bk(null)
+else i.bg()
+i.au(j)
+i.a_(j,null)
+s=321
+return A.b(m.A(500),$async$k)
+case 321:A.o("revive")
+b0=n.c!==0
+i.af(j,A.a4(n.gL(),0,!1,0,null,b0,0,0))
+i.aL(j)
+i=$.t()
+if(g===l.J(i.z))m.y.bL(n.a).aY(!0)
+s=322
+return A.b(m.A(500),$async$k)
+case 322:s=b0?323:324
+break
+case 323:s=325
+return A.b(p.cA(j,n),$async$k)
+case 325:case 324:s=326
+return A.b(m.A(500),$async$k)
+case 326:if(g===l.J(i.z)){n=m.y
+n.d_()
+n.ar(0)}s=3
+break
+case 320:s="die"===o?327:328
+break
+case 327:n=p.a
+m=n.x
+g=m.u(c3.b)
+l=n.bv(g)
+l.toString
+s=g.CW!=null?329:330
+break
+case 329:A.aX(g.aI(!1))
+j=n.f.a5(l),i=j.length,a=0
+case 331:if(!(a<j.length)){s=333
+break}s=334
+return A.b(j[a].aX(),$async$k)
+case 334:case 332:j.length===i||(0,A.G)(j),++a
+s=331
+break
+case 333:case 330:s=335
+return A.b(n.r.cN(l),$async$k)
+case 335:g.hP()
+s=g===m.J($.t().z)?336:337
+break
+case 336:n.y.ar(0)
+s=n.d.gS()===1?338:339
+break
+case 338:s=340
+return A.b(p.bC(!1),$async$k)
+case 340:case 339:case 337:s=3
+break
+case 328:s="attackDyingly"===o?341:342
+break
+case 341:n=p.a
+m=n.f
+m.aa(0)
+s=343
+return A.b(n.A(500),$async$k)
+case 343:A.o("attack-dyingly")
+e=m.Q?B.b:B.a
+d=c3.c
+l=n.x
+g=l.u(d.a)
+a5=c3.as
+j=a5.c
+b0=j!==0
+b9=b0&&a5.b!==j
+c0=b9?0:d.d
+c1=b9?0:d.e
+m.az(e,g)
+m.af(e,A.a4(a5.gL(),c0,!1,0,null,b0,c1,0))
+m.aL(e)
+j=t.G
+m.a_(e,A.aR(A.u([a5.gL()],j),!1,c0,c1))
+i=m.u(m.Q?B.b:B.a)
+h=$.t()
+if(i==l.J(h.z))n.y.bL(a5.a).aY(!0)
+s=344
+return A.b(n.A(1500),$async$k)
+case 344:s=b0?345:346
+break
+case 345:i=d.d
+a6=d.e
+s=347
+return A.b(p.bZ(e,a5,i,a6),$async$k)
+case 347:a7=a5.b-1
+if(!(a7>=0&&a7<$.p.length)){q=A.c($.p,a7)
+s=1
+break}m.a_(e,A.aR(A.u([$.p[a7]],j),!1,i,a6))
+case 346:if(m.u(m.Q?B.b:B.a)==l.J(h.z)){m=n.y
+m.d_()
+m.ar(0)}else if(l.J(h.z)!=null&&l.J(h.z).x)n.y.ar(0)
+s=348
+return A.b(n.A(500),$async$k)
+case 348:s=3
+break
+case 342:s="endGame"===o?349:350
+break
+case 349:n=p.a
+n.f.aa(0)
+m=n.x
+c2=m.aG()
+for(m=m.aG(),l=m.length,a=0;a<m.length;m.length===l||(0,A.G)(m),++a)m[a].sc8(0)
+s=n.d.gS()===1?351:353
+break
+case 351:s=354
+return A.b(n.aI(!1),$async$k)
+case 354:s=352
+break
+case 353:s=355
+return A.b(n.A(500),$async$k)
+case 355:case 352:A.o(c2.length===0?"draw-game":"win-game")
+n.hS()
+case 350:case 3:case 1:return A.j(q,r)}})
+return A.k($async$k,r)},

@@ -1,0 +1,10 @@
+game/node_modules/
+game/.npm-cache/
+game/dist/
+game/data/
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key

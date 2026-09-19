@@ -1,0 +1,1499 @@
+[
+  {
+    "url": "https://godfield.net/images/items/trade/discard.webp",
+    "path": "images/items/trade/discard.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/trade/sacrifice.webp",
+    "path": "images/items/trade/sacrifice.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/trade/exchange.webp",
+    "path": "images/items/trade/exchange.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/trade/sell.webp",
+    "path": "images/items/trade/sell.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/trade/buy.webp",
+    "path": "images/items/trade/buy.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/bronze-club.webp",
+    "path": "images/items/weapons/bronze-club.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/silver-club.webp",
+    "path": "images/items/weapons/silver-club.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/gold-club.webp",
+    "path": "images/items/weapons/gold-club.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/blowgun.webp",
+    "path": "images/items/weapons/blowgun.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/whip.webp",
+    "path": "images/items/weapons/whip.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/saver-rod.webp",
+    "path": "images/items/weapons/saver-rod.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/crossbow.webp",
+    "path": "images/items/weapons/crossbow.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/punch.webp",
+    "path": "images/items/weapons/punch.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/saw-boom-boom.webp",
+    "path": "images/items/weapons/saw-boom-boom.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/boomerang.webp",
+    "path": "images/items/weapons/boomerang.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/hatchet.webp",
+    "path": "images/items/weapons/hatchet.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/spiked-belt.webp",
+    "path": "images/items/weapons/spiked-belt.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/battle-ball.webp",
+    "path": "images/items/weapons/battle-ball.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/chain-sickle.webp",
+    "path": "images/items/weapons/chain-sickle.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/plate-of-strike.webp",
+    "path": "images/items/weapons/plate-of-strike.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/bouncing-sword.webp",
+    "path": "images/items/weapons/bouncing-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/warrior-s-bow.webp",
+    "path": "images/items/weapons/warrior-s-bow.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/hard-hammer.webp",
+    "path": "images/items/weapons/hard-hammer.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/elbow-sack.webp",
+    "path": "images/items/weapons/elbow-sack.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/jet-yo-yo.webp",
+    "path": "images/items/weapons/jet-yo-yo.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/glaive-classic.webp",
+    "path": "images/items/weapons/glaive-classic.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/ghost-sword.webp",
+    "path": "images/items/weapons/ghost-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/unknown-feather.webp",
+    "path": "images/items/weapons/unknown-feather.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/final-tusk.webp",
+    "path": "images/items/weapons/final-tusk.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/hell-scissors.webp",
+    "path": "images/items/weapons/hell-scissors.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/psychic-card.webp",
+    "path": "images/items/weapons/psychic-card.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/power-halberd.webp",
+    "path": "images/items/weapons/power-halberd.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/gale-sword.webp",
+    "path": "images/items/weapons/gale-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/sky-harpoon.webp",
+    "path": "images/items/weapons/sky-harpoon.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/wonder-sword.webp",
+    "path": "images/items/weapons/wonder-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/bogus-spear.webp",
+    "path": "images/items/weapons/bogus-spear.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/sword-shield.webp",
+    "path": "images/items/weapons/sword-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/reflection-sword.webp",
+    "path": "images/items/weapons/reflection-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/moonlight-axe.webp",
+    "path": "images/items/weapons/moonlight-axe.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/gravity-mace.webp",
+    "path": "images/items/weapons/gravity-mace.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/hexagon-doom.webp",
+    "path": "images/items/weapons/hexagon-doom.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/angel-knife.webp",
+    "path": "images/items/weapons/angel-knife.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/horror-wheel.webp",
+    "path": "images/items/weapons/horror-wheel.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/direct-smash-axe.webp",
+    "path": "images/items/weapons/direct-smash-axe.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/real-ghost-sword.webp",
+    "path": "images/items/weapons/real-ghost-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/spiritual-staff.webp",
+    "path": "images/items/weapons/spiritual-staff.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/spear-in-fine-view.webp",
+    "path": "images/items/weapons/spear-in-fine-view.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/severe-gale-sword.webp",
+    "path": "images/items/weapons/severe-gale-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/legendary-scabbard.webp",
+    "path": "images/items/weapons/legendary-scabbard.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/angel-sword.webp",
+    "path": "images/items/weapons/angel-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/top-of-combat.webp",
+    "path": "images/items/weapons/top-of-combat.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/violent-flail.webp",
+    "path": "images/items/weapons/violent-flail.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/evil-broadsword.webp",
+    "path": "images/items/weapons/evil-broadsword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/dragon-claws.webp",
+    "path": "images/items/weapons/dragon-claws.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/angel-axe.webp",
+    "path": "images/items/weapons/angel-axe.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/angel-bow.webp",
+    "path": "images/items/weapons/angel-bow.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/god-sword.webp",
+    "path": "images/items/weapons/god-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/magical-stick.webp",
+    "path": "images/items/weapons/magical-stick.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/torch.webp",
+    "path": "images/items/weapons/torch.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/icicle.webp",
+    "path": "images/items/weapons/icicle.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/wooden-sword.webp",
+    "path": "images/items/weapons/wooden-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/wind-talons.webp",
+    "path": "images/items/weapons/wind-talons.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/piece-of-brightness.webp",
+    "path": "images/items/weapons/piece-of-brightness.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/pri-pri-pricker.webp",
+    "path": "images/items/weapons/pri-pri-pricker.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/ouch-knife.webp",
+    "path": "images/items/weapons/ouch-knife.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/wand-of-ignition.webp",
+    "path": "images/items/weapons/wand-of-ignition.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/thorn-whip.webp",
+    "path": "images/items/weapons/thorn-whip.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/leaf-shuriken.webp",
+    "path": "images/items/weapons/leaf-shuriken.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/sword-ware.webp",
+    "path": "images/items/weapons/sword-ware.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/flash-dagger.webp",
+    "path": "images/items/weapons/flash-dagger.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/fire-whip.webp",
+    "path": "images/items/weapons/fire-whip.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/fog-gun.webp",
+    "path": "images/items/weapons/fog-gun.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/bur-nut.webp",
+    "path": "images/items/weapons/bur-nut.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/mature-rubber-bow.webp",
+    "path": "images/items/weapons/mature-rubber-bow.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/star-staff.webp",
+    "path": "images/items/weapons/star-staff.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/cobra.webp",
+    "path": "images/items/weapons/cobra.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/flaming-roll.webp",
+    "path": "images/items/weapons/flaming-roll.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/fire-crossbow.webp",
+    "path": "images/items/weapons/fire-crossbow.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/frozen-hammer.webp",
+    "path": "images/items/weapons/frozen-hammer.webp",
+    "ok": false,
+    "error": "<urlopen error [Errno 2] No such file or directory>"
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/dream-mallet.webp",
+    "path": "images/items/weapons/dream-mallet.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/goodbye-sword.webp",
+    "path": "images/items/weapons/goodbye-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/blaze-blade.webp",
+    "path": "images/items/weapons/blaze-blade.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/wand-of-mystic-water.webp",
+    "path": "images/items/weapons/wand-of-mystic-water.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/paleolithic-javelin.webp",
+    "path": "images/items/weapons/paleolithic-javelin.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/justice-lance.webp",
+    "path": "images/items/weapons/justice-lance.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/killer-fork.webp",
+    "path": "images/items/weapons/killer-fork.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/abyss-dart.webp",
+    "path": "images/items/weapons/abyss-dart.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/neolithic-tomahawk.webp",
+    "path": "images/items/weapons/neolithic-tomahawk.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/fire-dragon-s-horn.webp",
+    "path": "images/items/weapons/fire-dragon-s-horn.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/water-dragon-s-horn.webp",
+    "path": "images/items/weapons/water-dragon-s-horn.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/holy-sword.webp",
+    "path": "images/items/weapons/holy-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/death-s-scythe.webp",
+    "path": "images/items/weapons/death-s-scythe.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/diamond-sword.webp",
+    "path": "images/items/weapons/diamond-sword.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/dangerous-pestle.webp",
+    "path": "images/items/weapons/dangerous-pestle.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/spark-bag.webp",
+    "path": "images/items/weapons/spark-bag.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/shadow-hand.webp",
+    "path": "images/items/weapons/shadow-hand.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/fog-fan.webp",
+    "path": "images/items/weapons/fog-fan.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/vine-shoot.webp",
+    "path": "images/items/weapons/vine-shoot.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/lightning-kids.webp",
+    "path": "images/items/weapons/lightning-kids.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/flame-cup.webp",
+    "path": "images/items/weapons/flame-cup.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/chill-cup.webp",
+    "path": "images/items/weapons/chill-cup.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/plant-cup.webp",
+    "path": "images/items/weapons/plant-cup.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/rock-cup.webp",
+    "path": "images/items/weapons/rock-cup.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/oversize-snowball.webp",
+    "path": "images/items/weapons/oversize-snowball.webp",
+    "ok": false,
+    "error": "<urlopen error [Errno 2] No such file or directory>"
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/cliff-hammer.webp",
+    "path": "images/items/weapons/cliff-hammer.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/light-orb.webp",
+    "path": "images/items/weapons/light-orb.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/fire-shower.webp",
+    "path": "images/items/weapons/fire-shower.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/jinn-s-rocking-horse.webp",
+    "path": "images/items/weapons/jinn-s-rocking-horse.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/rain-deity-s-saber.webp",
+    "path": "images/items/weapons/rain-deity-s-saber.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/flare-axe.webp",
+    "path": "images/items/weapons/flare-axe.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/petit-saturn.webp",
+    "path": "images/items/weapons/petit-saturn.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/weapons/ascension-bow.webp",
+    "path": "images/items/weapons/ascension-bow.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/leather-cap.webp",
+    "path": "images/items/armor/leather-cap.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/sky-boots.webp",
+    "path": "images/items/armor/sky-boots.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/aqua-shoes.webp",
+    "path": "images/items/armor/aqua-shoes.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/laurel-wreath.webp",
+    "path": "images/items/armor/laurel-wreath.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/slate.webp",
+    "path": "images/items/armor/slate.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/leather-clothes.webp",
+    "path": "images/items/armor/leather-clothes.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/sparkle-glove.webp",
+    "path": "images/items/armor/sparkle-glove.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/aqua-glove.webp",
+    "path": "images/items/armor/aqua-glove.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/wood-shield.webp",
+    "path": "images/items/armor/wood-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/bedrock.webp",
+    "path": "images/items/armor/bedrock.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/iron-gauntlet.webp",
+    "path": "images/items/armor/iron-gauntlet.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/ogre-s-shoes.webp",
+    "path": "images/items/armor/ogre-s-shoes.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/sky-gauntlet.webp",
+    "path": "images/items/armor/sky-gauntlet.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/flame-boots.webp",
+    "path": "images/items/armor/flame-boots.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/ice-boots.webp",
+    "path": "images/items/armor/ice-boots.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/sacred-tree-gauntlet.webp",
+    "path": "images/items/armor/sacred-tree-gauntlet.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/crystal-board.webp",
+    "path": "images/items/armor/crystal-board.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/iron-shield.webp",
+    "path": "images/items/armor/iron-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/flame-helm.webp",
+    "path": "images/items/armor/flame-helm.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/ice-helm.webp",
+    "path": "images/items/armor/ice-helm.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/grove-shield.webp",
+    "path": "images/items/armor/grove-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/terra-shoes.webp",
+    "path": "images/items/armor/terra-shoes.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/iron-armor.webp",
+    "path": "images/items/armor/iron-armor.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/ogre-s-gauntlet.webp",
+    "path": "images/items/armor/ogre-s-gauntlet.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/sky-helm.webp",
+    "path": "images/items/armor/sky-helm.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/flame-shield.webp",
+    "path": "images/items/armor/flame-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/ice-shield.webp",
+    "path": "images/items/armor/ice-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/resin-knit-robe.webp",
+    "path": "images/items/armor/resin-knit-robe.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/terra-gauntlet.webp",
+    "path": "images/items/armor/terra-gauntlet.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/steel-gauntlet.webp",
+    "path": "images/items/armor/steel-gauntlet.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/spiritual-socks.webp",
+    "path": "images/items/armor/spiritual-socks.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/flame-mail.webp",
+    "path": "images/items/armor/flame-mail.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/ice-armor.webp",
+    "path": "images/items/armor/ice-armor.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/forest-shield.webp",
+    "path": "images/items/armor/forest-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/terra-helm.webp",
+    "path": "images/items/armor/terra-helm.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/shining-high-heels.webp",
+    "path": "images/items/armor/shining-high-heels.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/steel-helm.webp",
+    "path": "images/items/armor/steel-helm.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/ogre-s-helm.webp",
+    "path": "images/items/armor/ogre-s-helm.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/sky-shield.webp",
+    "path": "images/items/armor/sky-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/burning-shield.webp",
+    "path": "images/items/armor/burning-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/snow-mitten.webp",
+    "path": "images/items/armor/snow-mitten.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/steel-shield.webp",
+    "path": "images/items/armor/steel-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/beautiful-glasswork.webp",
+    "path": "images/items/armor/beautiful-glasswork.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/moonlight-helm.webp",
+    "path": "images/items/armor/moonlight-helm.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/burning-jacket.webp",
+    "path": "images/items/armor/burning-jacket.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/snow-mask.webp",
+    "path": "images/items/armor/snow-mask.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/amber-breastplate.webp",
+    "path": "images/items/armor/amber-breastplate.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/terra-armor.webp",
+    "path": "images/items/armor/terra-armor.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/steel-armor.webp",
+    "path": "images/items/armor/steel-armor.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/ogre-s-armor.webp",
+    "path": "images/items/armor/ogre-s-armor.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/spiritual-hood.webp",
+    "path": "images/items/armor/spiritual-hood.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/sky-armor.webp",
+    "path": "images/items/armor/sky-armor.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/angel-gauntlet.webp",
+    "path": "images/items/armor/angel-gauntlet.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/energy-helm.webp",
+    "path": "images/items/armor/energy-helm.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/moonlight-shield.webp",
+    "path": "images/items/armor/moonlight-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/fever-mask.webp",
+    "path": "images/items/armor/fever-mask.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/glittering-dress.webp",
+    "path": "images/items/armor/glittering-dress.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/energy-armor.webp",
+    "path": "images/items/armor/energy-armor.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/angel-cap.webp",
+    "path": "images/items/armor/angel-cap.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/core-barrier.webp",
+    "path": "images/items/armor/core-barrier.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/spiritual-sash.webp",
+    "path": "images/items/armor/spiritual-sash.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/moonlight-armor.webp",
+    "path": "images/items/armor/moonlight-armor.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/heat-haze-armor.webp",
+    "path": "images/items/armor/heat-haze-armor.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/core-protector.webp",
+    "path": "images/items/armor/core-protector.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/angel-shield.webp",
+    "path": "images/items/armor/angel-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/dreaming-hat.webp",
+    "path": "images/items/armor/dreaming-hat.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/angel-armor.webp",
+    "path": "images/items/armor/angel-armor.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/god-shield.webp",
+    "path": "images/items/armor/god-shield.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/mars-ring.webp",
+    "path": "images/items/armor/mars-ring.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/mercury-ring.webp",
+    "path": "images/items/armor/mercury-ring.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/jupiter-ring.webp",
+    "path": "images/items/armor/jupiter-ring.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/saturn-ring.webp",
+    "path": "images/items/armor/saturn-ring.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/uranus-ring.webp",
+    "path": "images/items/armor/uranus-ring.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/pluto-ring.webp",
+    "path": "images/items/armor/pluto-ring.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/neptune-ring.webp",
+    "path": "images/items/armor/neptune-ring.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/venus-ring.webp",
+    "path": "images/items/armor/venus-ring.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/rainbow-curtain.webp",
+    "path": "images/items/armor/rainbow-curtain.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/armor/super-mirror.webp",
+    "path": "images/items/armor/super-mirror.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/smile-dew.webp",
+    "path": "images/items/sundries/smile-dew.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/heart-dew.webp",
+    "path": "images/items/sundries/heart-dew.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/romance-water.webp",
+    "path": "images/items/sundries/romance-water.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/galaxy-geyser.webp",
+    "path": "images/items/sundries/galaxy-geyser.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/smile-flower.webp",
+    "path": "images/items/sundries/smile-flower.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/heart-flower.webp",
+    "path": "images/items/sundries/heart-flower.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/romance-fragrance.webp",
+    "path": "images/items/sundries/romance-fragrance.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/heaven-herb.webp",
+    "path": "images/items/sundries/heaven-herb.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/smile-shell.webp",
+    "path": "images/items/sundries/smile-shell.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/heart-shell.webp",
+    "path": "images/items/sundries/heart-shell.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/guardian-pot.webp",
+    "path": "images/items/sundries/guardian-pot.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/thump-thump-tear.webp",
+    "path": "images/items/sundries/thump-thump-tear.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/strength-powder.webp",
+    "path": "images/items/sundries/strength-powder.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/spiritual-doll.webp",
+    "path": "images/items/sundries/spiritual-doll.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/nocturnal-broom.webp",
+    "path": "images/items/sundries/nocturnal-broom.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/goddess-s-soap.webp",
+    "path": "images/items/sundries/goddess-s-soap.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/string-of-fate.webp",
+    "path": "images/items/sundries/string-of-fate.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/sun-amulet.webp",
+    "path": "images/items/sundries/sun-amulet.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/sundries/dangerous-mortar.webp",
+    "path": "images/items/sundries/dangerous-mortar.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/fireball.webp",
+    "path": "images/items/miracles/fireball.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/ice.webp",
+    "path": "images/items/miracles/ice.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/darkness.webp",
+    "path": "images/items/miracles/darkness.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/big-tree.webp",
+    "path": "images/items/miracles/big-tree.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/rock.webp",
+    "path": "images/items/miracles/rock.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/flame.webp",
+    "path": "images/items/miracles/flame.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/absorption.webp",
+    "path": "images/items/miracles/absorption.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/meteor.webp",
+    "path": "images/items/miracles/meteor.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/waterfall.webp",
+    "path": "images/items/miracles/waterfall.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/wind.webp",
+    "path": "images/items/miracles/wind.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/heaven-wind.webp",
+    "path": "images/items/miracles/heaven-wind.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/fog.webp",
+    "path": "images/items/miracles/fog.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/dream.webp",
+    "path": "images/items/miracles/dream.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/dark-cloud.webp",
+    "path": "images/items/miracles/dark-cloud.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/flash.webp",
+    "path": "images/items/miracles/flash.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/smoke.webp",
+    "path": "images/items/miracles/smoke.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/avalanche.webp",
+    "path": "images/items/miracles/avalanche.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/thunder.webp",
+    "path": "images/items/miracles/thunder.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/mudflow.webp",
+    "path": "images/items/miracles/mudflow.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/magma.webp",
+    "path": "images/items/miracles/magma.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/ice-age.webp",
+    "path": "images/items/miracles/ice-age.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/aura.webp",
+    "path": "images/items/miracles/aura.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/mirage.webp",
+    "path": "images/items/miracles/mirage.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/wall.webp",
+    "path": "images/items/miracles/wall.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/turbulence.webp",
+    "path": "images/items/miracles/turbulence.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/spring.webp",
+    "path": "images/items/miracles/spring.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/treasure.webp",
+    "path": "images/items/miracles/treasure.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/tone.webp",
+    "path": "images/items/miracles/tone.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/song.webp",
+    "path": "images/items/miracles/song.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/miracles/release.webp",
+    "path": "images/items/miracles/release.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/devils/small-devil.webp",
+    "path": "images/items/devils/small-devil.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/devils/medium-devil.webp",
+    "path": "images/items/devils/medium-devil.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/devils/large-devil.webp",
+    "path": "images/items/devils/large-devil.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/devils/trickster.webp",
+    "path": "images/items/devils/trickster.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/devils/charity-fairy.webp",
+    "path": "images/items/devils/charity-fairy.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/fire-whisper.webp",
+    "path": "images/items/guardians/fire-whisper.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/fire-tweet.webp",
+    "path": "images/items/guardians/fire-tweet.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/fire-buzz.webp",
+    "path": "images/items/guardians/fire-buzz.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/fire-roar.webp",
+    "path": "images/items/guardians/fire-roar.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/fire-shout.webp",
+    "path": "images/items/guardians/fire-shout.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/drizzle.webp",
+    "path": "images/items/guardians/drizzle.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/misty-breath.webp",
+    "path": "images/items/guardians/misty-breath.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/splash.webp",
+    "path": "images/items/guardians/splash.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/bubbles.webp",
+    "path": "images/items/guardians/bubbles.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/hail.webp",
+    "path": "images/items/guardians/hail.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/branch.webp",
+    "path": "images/items/guardians/branch.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/root.webp",
+    "path": "images/items/guardians/root.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/tentacles.webp",
+    "path": "images/items/guardians/tentacles.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/colored-leaves.webp",
+    "path": "images/items/guardians/colored-leaves.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/dance-of-fallen-leaves.webp",
+    "path": "images/items/guardians/dance-of-fallen-leaves.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/pebble.webp",
+    "path": "images/items/guardians/pebble.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/stone.webp",
+    "path": "images/items/guardians/stone.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/boulder.webp",
+    "path": "images/items/guardians/boulder.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/body-press.webp",
+    "path": "images/items/guardians/body-press.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/diamond-axe.webp",
+    "path": "images/items/guardians/diamond-axe.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/twinkle.webp",
+    "path": "images/items/guardians/twinkle.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/electric-shock.webp",
+    "path": "images/items/guardians/electric-shock.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/halo.webp",
+    "path": "images/items/guardians/halo.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/blessing.webp",
+    "path": "images/items/guardians/blessing.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/laser-beam.webp",
+    "path": "images/items/guardians/laser-beam.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/thinking.webp",
+    "path": "images/items/guardians/thinking.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/wink.webp",
+    "path": "images/items/guardians/wink.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/ominous-premonition.webp",
+    "path": "images/items/guardians/ominous-premonition.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/cough.webp",
+    "path": "images/items/guardians/cough.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/hand-raising.webp",
+    "path": "images/items/guardians/hand-raising.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/sound-of-ripples.webp",
+    "path": "images/items/guardians/sound-of-ripples.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/seafood-soup.webp",
+    "path": "images/items/guardians/seafood-soup.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/beach-aroma.webp",
+    "path": "images/items/guardians/beach-aroma.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/healthy-seafood-soup.webp",
+    "path": "images/items/guardians/healthy-seafood-soup.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/fresh-beach-aroma.webp",
+    "path": "images/items/guardians/fresh-beach-aroma.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/coin-scattering.webp",
+    "path": "images/items/guardians/coin-scattering.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/bribe.webp",
+    "path": "images/items/guardians/bribe.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/fine.webp",
+    "path": "images/items/guardians/fine.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/little-something.webp",
+    "path": "images/items/guardians/little-something.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/luxury-accessory.webp",
+    "path": "images/items/guardians/luxury-accessory.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/drop.webp",
+    "path": "images/items/guardians/drop.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/guardians/full-moon-blade.webp",
+    "path": "images/items/guardians/full-moon-blade.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/phenomena/afterglow.webp",
+    "path": "images/items/phenomena/afterglow.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/phenomena/dense-fog.webp",
+    "path": "images/items/phenomena/dense-fog.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/phenomena/mushroom-outbreak.webp",
+    "path": "images/items/phenomena/mushroom-outbreak.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/phenomena/tornado.webp",
+    "path": "images/items/phenomena/tornado.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/phenomena/gigantic-tub.webp",
+    "path": "images/items/phenomena/gigantic-tub.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/phenomena/black-hole.webp",
+    "path": "images/items/phenomena/black-hole.webp",
+    "ok": false,
+    "error": "Remote end closed connection without response"
+  },
+  {
+    "url": "https://godfield.net/images/items/phenomena/warm-current.webp",
+    "path": "images/items/phenomena/warm-current.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/phenomena/gold-mountain.webp",
+    "path": "images/items/phenomena/gold-mountain.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/phenomena/magnetic-storm.webp",
+    "path": "images/items/phenomena/magnetic-storm.webp",
+    "ok": true
+  },
+  {
+    "url": "https://godfield.net/images/items/phenomena/solar-eclipse.webp",
+    "path": "images/items/phenomena/solar-eclipse.webp",
+    "ok": true
+  }
+]
