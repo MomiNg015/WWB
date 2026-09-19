@@ -35,13 +35,14 @@ export function defenseError(
   cards: Card[],
   mp: number,
   curses: string[],
+  resolveItem: (id: string) => Item = itemById,
 ): string | null {
   if (a.kind === "purchase") return "请选择购买或放弃购买";
   if (new Set(cards.map((c) => c.uid)).size !== cards.length)
     return "不能重复选择";
   if (curses.includes("flash") && cards.length > 1)
     return "闪光状态只能使用一件神器";
-  const defs = cards.map((c) => itemById(c.id));
+  const defs = cards.map((c) => resolveItem(c.id));
   const filter = defs.some((d) => d.ability === "filterAtkElement");
   const element = filter ? "" : a.element;
   if (actionCost(defs) > mp) return "MP不足";

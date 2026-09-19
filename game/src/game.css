@@ -1449,6 +1449,13 @@ a {
   height: 150px;
   pointer-events: none;
 }
+.player .player-character {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  vertical-align: middle;
+  margin-right: 5px;
+}
 .gf-opening {
   position: absolute;
   z-index: 14;

@@ -8,7 +8,11 @@ export default defineConfig({
   server: {
     host: "0.0.0.0",
     allowedHosts: ["terminal.local"],
-    proxy: { "/socket.io": { target: "http://127.0.0.1:3311", ws: true }, "/api": "http://127.0.0.1:3311" },
+    proxy: {
+      "/socket.io": { target: "http://127.0.0.1:3311", ws: true },
+      "/api": "http://127.0.0.1:3311",
+      "/uploads": "http://127.0.0.1:3311",
+    },
     warmup: {
       clientFiles: ["./src/main.jsx"],
     },

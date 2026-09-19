@@ -14,6 +14,7 @@ import {
   statLabel,
   abilityLabel,
   colors,
+  setRuntimeCatalog,
 } from "../shared/catalog";
 import type { Card, Command, GameView, Item } from "../shared/types";
 import { defenseError } from "../shared/defense";
@@ -649,6 +650,18 @@ export function Battle({
                 <strong
                   style={{ color: n === game.self ? "#008f6f" : "#4444dd" }}
                 >
+                  {p.character && (
+                    <img
+                      className="player-character"
+                      src={
+                        p.character.imageRef.startsWith("uploads/")
+                          ? `/${p.character.imageRef}`
+                          : `/assets/images/items/${p.character.imageRef}.webp`
+                      }
+                      alt={p.character.name}
+                      title={p.character.name}
+                    />
+                  )}
                   {p.name}
                 </strong>
                 <span>
@@ -868,7 +881,12 @@ export function App() {
       socket.auth = { token: s.token };
     });
     socket.on("room", (r: Room | null) => {
+      if (r?.game?.catalogItems) setRuntimeCatalog(r.game.catalogItems);
       setRoom(r);
+      if (!r)
+        setScreen((current) =>
+          ["game", "private", "duel"].includes(current) ? "menu" : current,
+        );
       if (r)
         setScreen(
           r.game
@@ -881,6 +899,7 @@ export function App() {
         );
     });
     socket.on("notice", (s: string) => setNotice(s));
+    socket.on("catalog", setRuntimeCatalog);
     socket.on("counts", setCounts);
     socket.on("ranking", (data) => {
       setRanking(data);

@@ -1,15 +1,38 @@
 import raw from "./data/zh-hans.json";
 import type { Item, Element, Rules } from "./types";
 export const items = raw.items as Item[];
+const originalOrder = new Map(
+  items.map((item, index) => [item.imageName, index]),
+);
+export function sortCatalog(definitions: Item[]) {
+  return [...definitions].sort(
+    (a, b) =>
+      (originalOrder.get(a.imageName) ?? 1e9) -
+        (originalOrder.get(b.imageName) ?? 1e9) ||
+      a.imageName.localeCompare(b.imageName),
+  );
+}
 export let texts = raw.texts;
+let runtimeCatalog = false;
 export function setCatalogLocale(data: typeof raw) {
   texts = data.texts;
   const names = new Map(data.items.map((i) => [i.imageName, i.name]));
-  items.forEach((i) => {
-    i.name = names.get(i.imageName) || i.name;
-  });
+  if (!runtimeCatalog)
+    items.forEach((i) => {
+      i.name = names.get(i.imageName) || i.name;
+    });
 }
 export const catalog = new Map(items.map((item) => [item.imageName, item]));
+export function setRuntimeCatalog(definitions: Item[]) {
+  runtimeCatalog = true;
+  items.splice(
+    0,
+    items.length,
+    ...sortCatalog(definitions).map((item) => ({ ...item })),
+  );
+  catalog.clear();
+  items.forEach((item) => catalog.set(item.imageName, item));
+}
 export function itemById(id: string): Item {
   const item = catalog.get(id);
   if (!item) throw new Error("未知神器");
@@ -39,7 +62,11 @@ export const classicRules: Rules = {
   devilChance: 0.25,
 };
 export const imageURL = (item: Item) =>
-  `/assets/images/items/${item.category}/${item.imageName}.webp`;
+  item.imageRef?.startsWith("uploads/")
+    ? `/${item.imageRef}`
+    : item.imageRef
+      ? `/assets/images/items/${item.imageRef}.webp`
+      : `/assets/images/items/${item.category}/${item.imageName}.webp`;
 export function statLabel(i: Item) {
   return (
     [

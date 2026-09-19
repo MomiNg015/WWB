@@ -1,30 +1,20 @@
 import express from "express";
 import { createServer } from "node:http";
 import { randomBytes, randomUUID, createHash } from "node:crypto";
-import { mkdirSync, readFileSync, writeFileSync, renameSync } from "node:fs";
+
 import { resolve } from "node:path";
 import { Server, Socket } from "socket.io";
 import { z } from "zod";
-import {
-  botCommand,
-  createGame,
-  projectGame,
-  reduceGame,
-} from "../shared/engine";
+import { createEngine } from "../shared/engine";
+import { AdminStore, type UserRecord } from "./admin-store";
+import { adminRouter } from "./admin-api";
 import type { Game, Command } from "../shared/types";
 
 const app = express();
 const http = createServer(app);
 const io = new Server(http, { maxHttpBufferSize: 16384 });
 const port = Number(process.env.GAME_PORT || 3311);
-interface Session {
-  id: string;
-  token: string;
-  name: string;
-  rating: number;
-  games: number;
-  room?: string;
-}
+type Session = UserRecord;
 interface Member {
   id: string;
   name: string;
@@ -53,20 +43,63 @@ const sessions = new Map<string, Session>(),
   rooms = new Map<string, Room>(),
   peers = new Map<string, Set<string>>();
 const dataDir = resolve(process.env.GAME_DATA_DIR || "data");
-mkdirSync(dataDir, { recursive: true });
-const sessionFile = resolve(dataDir, "sessions.json");
-try {
-  for (const s of JSON.parse(readFileSync(sessionFile, "utf8")))
-    sessions.set(s.token, { ...s, room: undefined });
-} catch {}
+const store = new AdminStore(dataDir);
+for (const user of store.users())
+  sessions.set(user.token, { ...user, room: undefined });
 function save() {
-  const tmp = sessionFile + ".tmp";
-  writeFileSync(
-    tmp,
-    JSON.stringify([...sessions.values()].map(({ room, ...s }) => s)),
-    { mode: 0o600 },
+  store.transaction(() => {
+    for (const user of sessions.values()) store.saveUser(user);
+  });
+}
+const engines = new Map<number, ReturnType<typeof createEngine>>();
+function engineFor(g?: Game) {
+  const release = store.release(g?.contentVersion);
+  if (!engines.has(release.id))
+    engines.set(release.id, createEngine(release.items));
+  return engines.get(release.id)!;
+}
+function createGame(
+  ...args: Parameters<ReturnType<typeof createEngine>["createGame"]>
+) {
+  const release = store.release();
+  const game = engineFor().createGame(
+    args[0].map((player) => {
+      const user = [...sessions.values()].find((u) => u.id === player.id);
+      const character = release.characters.find(
+        (c) => c.id === user?.characterId && c.enabled,
+      );
+      return {
+        ...player,
+        ...(character
+          ? {
+              character: {
+                id: character.id,
+                name: character.name,
+                imageRef: character.imageRef,
+              },
+            }
+          : {}),
+      };
+    }),
+    { ...release.rules, ...args[1] },
+    args[2],
   );
-  renameSync(tmp, sessionFile);
+  game.contentVersion = release.id;
+  game.id = randomUUID();
+  return game;
+}
+function reduceGame(g: Game, ...args: [string, Command]) {
+  return engineFor(g).reduceGame(g, ...args);
+}
+function botCommand(g: Game, index: number) {
+  return engineFor(g).botCommand(g, index);
+}
+function projectGame(g: Game, playerId: string) {
+  return {
+    ...engineFor(g).projectGame(g, playerId),
+    contentVersion: g.contentVersion,
+    catalogItems: store.release(g.contentVersion).items,
+  };
 }
 function publicSession(s: Session) {
   return {
@@ -156,6 +189,21 @@ function score(room: Room) {
 }
 function advance(room: Room) {
   if (room.timer) clearTimeout(room.timer);
+  if (room.game?.phase === "ended") {
+    const g = room.game;
+    store.db.prepare("INSERT OR REPLACE INTO matches VALUES (?,?)").run(
+      g.id,
+      JSON.stringify({
+        id: g.id,
+        mode: room.mode,
+        contentVersion: g.contentVersion,
+        players: g.players.map((p) => ({ id: p.id, name: p.name })),
+        winners: g.winners,
+        round: g.round,
+        endedAt: new Date().toISOString(),
+      }),
+    );
+  }
   score(room);
   update(room);
   const g = room.game;
@@ -251,6 +299,12 @@ io.on("connection", (socket: Socket) => {
     sessions.set(token, s);
     save();
   }
+  if (s.status === "banned" || s.status === "archived") {
+    socket.emit("notice", "此账号已被封禁或归档");
+    socket.disconnect(true);
+    return;
+  }
+  socket.emit("catalog", store.release().items);
   const session = s;
   let set = peers.get(s.id);
   if (!set) {
@@ -277,6 +331,8 @@ io.on("connection", (socket: Socket) => {
           windowStart = Date.now();
         }
         if (++calls > 25) throw new Error("操作太频繁");
+        if (session.status === "banned" || session.status === "archived")
+          throw new Error("此账号已被封禁或归档");
         fn(payload);
         if (typeof ack === "function") ack({ ok: true });
       } catch (e) {
@@ -361,7 +417,7 @@ io.on("connection", (socket: Socket) => {
         mode: "private",
         host: session.id,
         members: [],
-        tiebreak: 100,
+        tiebreak: store.release().rules.tiebreak,
         locked: false,
         chat: [],
       };
@@ -449,7 +505,7 @@ io.on("connection", (socket: Socket) => {
       mode: "duel" as const,
       host: session.id,
       members: [],
-      tiebreak: 100,
+      tiebreak: store.release().rules.tiebreak,
       locked: true,
       chat: [],
     };
@@ -476,7 +532,10 @@ io.on("connection", (socket: Socket) => {
     socket.emit(
       "ranking",
       [...sessions.values()]
-        .filter((s) => s.games > 0)
+        .filter(
+          (s) =>
+            s.games > 0 && s.status !== "archived" && s.status !== "banned",
+        )
         .sort((a, b) => b.rating - a.rating)
         .slice(0, 100)
         .map((s) => ({
@@ -489,7 +548,8 @@ io.on("connection", (socket: Socket) => {
   });
   on("deleteAccount", () => {
     leave(session);
-    sessions.delete(session.token);
+    session.status = "archived";
+    session.name = "已删除用户";
     save();
     socket.emit("deleted");
     socket.disconnect(true);
@@ -508,7 +568,68 @@ io.on("connection", (socket: Socket) => {
   });
 });
 app.get("/api/health", (_, res) => res.json({ ok: true, rooms: rooms.size }));
+app.use(
+  "/api/admin",
+  adminRouter(store, {
+    users: sessions,
+    userChanged(user) {
+      if (user.status !== "active") {
+        leave(user);
+        for (const sid of peers.get(user.id) || []) {
+          io.to(sid).emit("notice", "此账号已被封禁或归档");
+          io.sockets.sockets.get(sid)?.disconnect(true);
+        }
+      } else {
+        for (const sid of peers.get(user.id) || [])
+          io.to(sid).emit("session", publicSession(user));
+        for (const room of rooms.values()) {
+          const member = room.members.find((m) => m.id === user.id);
+          if (member) {
+            member.name = user.name;
+            update(room);
+          }
+        }
+      }
+    },
+    rooms: () =>
+      [...rooms.values()].map((r) => ({
+        id: r.id,
+        mode: r.mode,
+        players: r.members.map((m) => m.name),
+        phase: r.game?.phase || "waiting",
+        contentVersion: r.game?.contentVersion,
+      })),
+    closeRoom(id) {
+      const room = rooms.get(id);
+      if (!room) throw new Error("房间不存在");
+      if (room.timer) clearTimeout(room.timer);
+      room.rated = true;
+      for (const member of room.members) {
+        const user = getSession(member.id);
+        if (user) user.room = undefined;
+        for (const sid of peers.get(member.id) || []) {
+          io.to(sid).emit("room", null);
+          io.to(sid).emit("notice", "管理员已关闭房间，未结算对局不计积分");
+        }
+      }
+      rooms.delete(id);
+      broadcastCounts();
+    },
+  }),
+);
 app.use(express.static(resolve("dist")));
+app.use(
+  "/uploads",
+  express.static(resolve(dataDir, "uploads"), {
+    dotfiles: "deny",
+    setHeaders(res) {
+      res.setHeader("X-Content-Type-Options", "nosniff");
+    },
+  }),
+);
+app.get(["/admin", "/admin/{*path}"], (_, res) =>
+  res.sendFile(resolve("dist/index.html")),
+);
 http.listen(port, "127.0.0.1", () =>
   console.log(`Game service http://127.0.0.1:${port}`),
 );

@@ -1,6 +1,8 @@
 export type Element =
   "" | "fire" | "water" | "wood" | "stone" | "light" | "darkness";
 export interface Item {
+  enabled?: boolean;
+  imageRef?: string;
   imageName: string;
   category: string;
   name: string;
@@ -25,6 +27,7 @@ export interface Card {
   apparentId?: string;
 }
 export interface Player {
+  character?: { id: string; name: string; imageRef: string };
   id: string;
   name: string;
   team: number;
@@ -72,6 +75,7 @@ export interface Event {
   text: string;
 }
 export interface Game {
+  contentVersion?: number;
   cues: BattleCue[];
   resumeAction?: boolean;
   id: string;
@@ -108,6 +112,8 @@ export type PublicPlayer = Omit<Player, "hand" | "miracles" | "redraw"> & {
   miracleCount: number;
 };
 export interface GameView {
+  contentVersion?: number;
+  catalogItems?: Item[];
   cues: BattleCue[];
   id: string;
   rules: Rules;
